@@ -2,8 +2,7 @@
 $hostname = 'localhost';
 $username = 'root';
 $pass = '';
-// $username = 'root';
-// $pass = 'ZDcwZGUyMmRlNzAzYmY3ODlhODU5Njg3';
+
 $dbconn = mysqli_connect($hostname,$username,$pass);
 if(!$dbconn)
 {
